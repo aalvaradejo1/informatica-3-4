@@ -23,7 +23,7 @@ int main(){
  printf("\n%d°F = %d°C\n", fahrenheit, celsius);
 
 //minutes into hours
-int minutes = 349;
+int minutes;
 
 printf("\nEnter the minutes: ");
 scanf("%d", &minutes);
