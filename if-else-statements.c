@@ -19,7 +19,7 @@ if (number1 == number2) {
 
 //check whether a number is even or odd
 int number;
-printf("enter a number: ");
+printf("\nenter a number: ");
 scanf("%d", &number);
 
 if (number % 2 == 0){
