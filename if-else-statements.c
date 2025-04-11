@@ -54,14 +54,14 @@ if(integer == 1){
 //calculator
 int num1;
 int num2;
-
 char operation;
+
 printf("Enter any number you want: ");
-scanf("%d", &num1);
+scanf(" %d", &num1);
 printf("Enter any other number you want: ");
-scanf("%d", &num2);
-printf( "Enter any operation(+,-,*,/): ");
-scanf("%c", &operation);
+scanf(" %d", &num2);
+printf("Enter a symbol for an operation(+,-,*,/): ");
+scanf(" %c", &operation);
 
 int addition = num1 + num2;
 int substraction = num1 - num2;
