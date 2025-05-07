@@ -12,11 +12,11 @@ for(i = 1; i < n + 1; ++i){
     sum = sum +i; 
 }
 
-printf("%d\n", sum);
+printf("Sum: %d\n", sum);
 
 int factorial = 1;
 for(i = 1; i < n + 1; ++i){
     factorial = factorial *i; 
 }
-printf("%d\n", factorial);
+printf("Multiplication: %d\n", factorial);
 }
