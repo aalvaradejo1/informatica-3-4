@@ -1,11 +1,18 @@
 #include <stdio.h>
 int main(){
 
-    double n;
-    int count 0;
+    int n;
+    int count = 0;
 
     printf("Enter a positive number as large as you want: ");
-    scanf("%lf", &n);
+    scanf("%d", &n);
 
-    while (n )
+    do {
+        n = n / 10;
+
+        ++count;
+    }
+    while (n != 0 );
+
+    printf("Number of digits: %d\n", count);
 }
