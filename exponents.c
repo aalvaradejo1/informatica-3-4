@@ -4,6 +4,7 @@ int main(){
 
     int base;
     int exp;
+    int result;
     //int count = 1;
 
     printf("Enter the base number: ");
@@ -19,8 +20,9 @@ int main(){
         //++count;
    // }
     //printf("%d ^ %d = %d\n", base, exp, ans);
+      result = pow(base, exp);
 
-    pow(base ** exp);
+    
 
-    printf(" %d ^ %d  = %d", base, exp, pow )
-}
+    printf(" %d ^ %d  = %d\n", base, exp, result);
+   }
